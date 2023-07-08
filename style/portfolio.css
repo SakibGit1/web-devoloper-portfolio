@@ -131,5 +131,8 @@ main{
 .info-title{
     line-height: 5px;
     /* padding: 20px; */
-    color
+    color:#474747;
+}
+.info-description{
+    color:#4b4747;
 }
