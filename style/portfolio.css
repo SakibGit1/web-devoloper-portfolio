@@ -68,6 +68,7 @@ nav a {
 /* header style */
 .header {
     background-color: #FFF8F3;
+    /* background-color: #eeb58c; */
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -110,10 +111,25 @@ nav a {
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section */
 .about {
     padding: 130px;
     border-radius: 10px;
-    background-color: #FFF8F3;
+    /* background-color: #FFF8F3; */
+    background-color: #daab8a;
     margin:130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    /* line-height: 30px; */
+}
+.info-title{
+    line-height: 5px;
+    /* padding: 20px; */
+    color
 }
